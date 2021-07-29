@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Styles = styled.div`
     .jumbo{
         background: url(${Bgcar}) no-repeat fixed top;
-        background: cover;
+        background-size: cover;
         color: #efefef;
         height: 600px;
         position: relative;
