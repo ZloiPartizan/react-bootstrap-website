@@ -9,10 +9,11 @@ import Onecar3 from './onecar3.png';
 export const Home = () =>(
     <>
     <Slider/>
-    <Container style={{paddingTop: '5rem', paddingLeft: '2rem', paddingRight: '2rem'}}>
+
+    <Container  style={{paddingTop: '5rem'}}>
         <Row>
-            <Col>
-                <Card style={{width: '18rem', height: '24rem'}}>
+            <Col className = "col-sm-4">
+                <Card>
                     <Card.Img variant="top" src={Onecar}/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
@@ -23,8 +24,8 @@ export const Home = () =>(
                         </Card.Body>
                 </Card>
             </Col>
-            <Col>
-                <Card style={{width: '18rem', height: '24rem'}}>
+            <Col className = "col-sm-4">
+                <Card>
                     <Card.Img variant="top" src={Onecar}/>
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -35,8 +36,8 @@ export const Home = () =>(
                     </Card.Body>
                 </Card>
             </Col>
-            <Col>
-                <Card style={{width: '18rem', height: '24rem'}}>
+            <Col className = "col-sm-4">
+                <Card>
                     <Card.Img variant="top" src={Onecar3}/>
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -47,8 +48,10 @@ export const Home = () =>(
                     </Card.Body>
                 </Card>
             </Col>
+
         </Row>
     </Container>
+
     <Jumbotron/>
     </>
 
