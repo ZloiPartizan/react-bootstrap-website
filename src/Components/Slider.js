@@ -58,7 +58,7 @@ const Styles = styled.div `
     button{
     font-size: 20px;
     font-weight: 400;
-    width: 10%;
+    width: 15%;
     margin: 0;
     position: absolute;
     top: 80%;

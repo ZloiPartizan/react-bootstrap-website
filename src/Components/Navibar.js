@@ -47,8 +47,8 @@ export default function Navibar (){
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Button variant="secondary" className="m-sm-3" onClick={handleShow}>Log in</Button>
-                        <Button variant="secondary"  className="m-sm-3" onClick={handleShow}>Sign out</Button>
+                        <Button variant="primary" className="m-sm-3" onClick={handleShow}>Log in</Button>
+                        <Button variant="primary"  className="m-sm-3" onClick={handleShow}>Sign out</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
