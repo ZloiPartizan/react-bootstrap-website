@@ -21,18 +21,21 @@ const Styles = styled.div`
     }
     
     h1 {
-    
+    display: flex;
+    justifyContent: center;
     font-size: 65px;
     line-height: 1.4em;
     font-weight: 600;  
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
     }
     
     p{
+    display: flex;
+    justifyContent: center;
     font-size: 25px;
     font-weight: 200;
     width: 75%;
@@ -44,6 +47,7 @@ const Styles = styled.div`
     margin-right: -50%;
     transform: translate(-50%, -50%)
     }
+    
 `
 
 const Jumbotron = () =>(

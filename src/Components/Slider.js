@@ -67,6 +67,16 @@ const Styles = styled.div `
     transform: translate(-50%, -50%)
     
     }
+    
+    img
+    {
+        background-repeat:no-repeat;
+        background-size: cover;
+        color: #efefef;
+        position: relative;
+        
+        
+    }
 `
 
 export default function Slider (){

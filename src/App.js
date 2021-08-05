@@ -22,8 +22,8 @@ function App() {
      <Navibar/>
      <Switch>
          <Route exact path="/" component={Home} />
-         <Route path="/users" component={About} />
-         <Route path="/about" component={Users} />
+         <Route exact path="/about" component={About} />
+         <Route exact path="/users" component={Users} />
      </Switch>
      </Router>
 

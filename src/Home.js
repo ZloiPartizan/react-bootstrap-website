@@ -7,6 +7,7 @@ import Onecar from './onecar.png';
 import Onecar2 from './onecar2.png';
 import Onecar3 from './onecar3.png';
 import styled from "styled-components";
+import Footer from "./Components/Footer";
 import {MDBContainer} from "mdbreact";
 
 const Styles = styled.div`
@@ -105,6 +106,9 @@ export const Home = () =>(
                 </Col>
         </Row>
     </Container>
+
+        <Footer/>
+
     </>
 
 )
